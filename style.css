@@ -1,0 +1,49 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+.note{
+    font-size: 15px;
+    color: white;
+}
+
+body{
+    background-size: cover;
+}
+
+.div-speed {
+    float: left;
+}
+
+.div-speed-img, .div-volume-img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.div-volume{
+    float: right;
+}
+
+#speed, #volume{
+    font-size: 23px;
+    margin: 15px;
+
+}
+
+.playButton {
+    width: 150px;
+    font-size: 25px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.playButtonDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
